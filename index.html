@@ -9,36 +9,82 @@
     <link rel="stylesheet" href="assets/css/common.css" />
   </head>
   <body>
-    <main>
+    <main class="blogfeed">
       <header>
-        <a class="site-title" href="#">Jekyll Material You</a>
+        <a class="site-title" href="#">Material You Blog</a>
       </header>
-      <section id="bio"></section>
+      <section id="bio">
+        <div id="bio-avatar-wrapper">
+          <img
+            src="https://avatars.githubusercontent.com/u/36638057?v=4"
+            alt=""
+            sizes=""
+            srcset=""
+            id="bio-avatar"
+          />
+        </div>
+        <div id="bio-text">
+          <p>
+            Developed by Sharad Raj who lives in India building useful things
+            for the world.
+          </p>
+          <br />
+          <p>You should follow him on <a href="#">Github</a></p>
+        </div>
+      </section>
+      <section id="social-links">
+        <a href="https://www.linkedin.com/in/srsmaurya" target="_blank">
+          <img
+            src="https://sharadcodes.github.io/jekyll-theme-serial-programmer/assets/icons/linkedin.png"
+            alt=""
+          />
+        </a>
+        <a href="https://github.com/sharadcodes" target="_blank">
+          <img
+            src="https://sharadcodes.github.io/jekyll-theme-serial-programmer/assets/icons/github.png"
+            alt=""
+          />
+        </a>
+      </section>
       <section id="articles">
         <article class="article">
-          <h2 class="article-title">
-            <a href="#"> Lorem ipsum dolor sit Lorem ipsum dolor sit. </a>
+          <h2 class="article-top">
+            <div class="article-title">
+              <a href="#"
+                >How not to behave as a nerd while talking to others.</a
+              >
+            </div>
           </h2>
-          <small class="article-date">April 26, 2022</small>
-          <div class="article-categories">
-            <a href="!#" class="article-category">test</a>
-            <a href="!#" class="article-category">demo</a>
-            <a href="!#" class="article-category">first</a>
+          <div class="article-bottom">
+            <small class="article-date">April 27, 2050</small>
+            <div class="article-categories">
+              <a href="!#" class="article-category">#lifehacks</a>
+            </div>
           </div>
         </article>
         <article class="article">
-          <h2 class="article-title">
-            <a href="#"> Lorem ipsum dolor sit Lorem ipsum dolor sit. </a>
+          <h2 class="article-top">
+            <div
+              class="article-thumbnail"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1651497781089-5432621f6482?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+              "
+            >
+              <div class="article-title">
+                <a href="#">The truth about UI designs.</a>
+              </div>
+            </div>
           </h2>
-          <small class="article-date">April 26, 2022</small>
-          <div class="article-categories">
-            <a href="!#" class="article-category">test</a>
-            <a href="!#" class="article-category">demo</a>
-            <a href="!#" class="article-category">first</a>
+          <div class="article-bottom">
+            <small class="article-date">April 26, 2022</small>
+            <div class="article-categories">
+              <a href="!#" class="article-category">#uidesign</a>
+              <a href="!#" class="article-category">#pro_tips</a>
+            </div>
           </div>
         </article>
       </section>
-      <footer>&copy; 2020 - 2022</footer>
+      <footer>Copyright &copy; 2020 - 2022</footer>
     </main>
   </body>
 </html>
