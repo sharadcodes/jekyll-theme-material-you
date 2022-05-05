@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&display=swap");
 
 :root {
+  /* Themes */
   --text-dm-site-title: #ffa4a4;
   --text-dm-primary: #ffa4a4;
   --text-dm-secondary: #d4adad;
-  --text-dm-contrast: #fbff45;
+  --dm-contrast: #fbff45;
   --bg-dm-primary: #130202;
   --bg-dm-secondary: #1c0b0b;
+  /* Other vars */
+  --border-radius: 2rem;
 }
 
 * {
@@ -69,8 +72,8 @@ header .site-title {
 }
 
 #bio-text a {
-  color: var(--text-dm-contrast);
-  border-bottom: 3px solid var(--text-dm-contrast);
+  color: var(--dm-contrast);
+  border-bottom: 3px solid var(--dm-contrast);
 }
 
 #social-links {
@@ -78,12 +81,22 @@ header .site-title {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
+}
+
+#social-links a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  color: var(--bg-dm-secondary);
+  background-color: var(--dm-contrast);
 }
 
 #social-links a img {
-  width: 30px;
-  filter: invert(100%);
+  width: 20px;
+  border-radius: 50%;
 }
 
 /* article list styles */
@@ -99,7 +112,7 @@ header .site-title {
 .article {
   background-color: var(--bg-dm-secondary);
   padding: 2rem 2.5rem;
-  border-radius: 2rem;
+  border-radius: var(--border-radius);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -115,7 +128,7 @@ header .site-title {
   height: 200px;
   margin: -2rem -2.5rem;
   inset: 0;
-  border-radius: 30px 30px 0 0;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
   margin-bottom: 0.2rem;
   display: flex;
   justify-content: flex-start;
@@ -132,7 +145,7 @@ header .site-title {
 }
 
 .article-date {
-  color: var(--text-dm-contrast);
+  color: var(--dm-contrast);
 }
 
 .article-categories {
@@ -142,22 +155,22 @@ header .site-title {
 }
 
 .article-category {
-  padding: 0.1rem 0.8rem;
-  border-radius: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--border-radius);
   color: var(--bg-dm-secondary);
-  background-color: var(--text-dm-contrast);
+  background-color: var(--dm-contrast);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* footer */
 footer {
-  background: var(--text-dm-contrast);
+  background: var(--dm-contrast);
   margin: 10rem 0 -3rem 0;
   padding: 2rem 2.5rem;
-  border-radius: 33px 33px 0 0;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
   font-size: 1.2rem;
   color: var(--bg-dm-secondary);
 }
