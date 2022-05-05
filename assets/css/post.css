@@ -1,0 +1,29 @@
+.site-title.article-page {
+  font-size: 3rem;
+}
+
+#article .article-thumbnail {
+  height: 200px;
+  margin: 0;
+  width: inherit;
+  position: relative;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: inset 0px 140px 200px 0px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#article .article-thumbnail h1 {
+  font-size: 2rem;
+}
+
+#article .article-content {
+  margin-top: 3rem;
+}
+
+#article .article-content * {
+  font-weight: 400;
+}
