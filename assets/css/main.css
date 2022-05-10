@@ -138,6 +138,7 @@ header .site-title {
 
 .article-title * {
   color: inherit;
+  font-size: 2rem;
 }
 
 .article-bottom {
