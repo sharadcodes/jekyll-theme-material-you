@@ -7,8 +7,21 @@ hr {
 }
 
 /* queries */
+
 @media screen and (max-width: 750px) {
   main {
     padding: 1.5rem;
   }
+}
+
+@media screen and (max-width: 650px) {
+	a.site-title {
+		font-size: 3.5rem !important;
+	}
+	.site-title.article-page {
+		font-size: 1.6rem !important;
+	}
+	footer {
+		font-size: 0.8rem !important;
+	}
 }
