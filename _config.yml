@@ -1,7 +1,7 @@
-title: Jekyll Material You Dark
+title: Jekyll Theme Material You
 markdown: kramdown
 url: ""
-baseurl: "/jekyll-theme-material-you-dark"
+baseurl: "/jekyll-theme-material-you"
 
 # for atom feed
 author:
