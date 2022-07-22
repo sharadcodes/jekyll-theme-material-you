@@ -18,6 +18,7 @@
    - localhost or according to your pc configurations.
 6. Change the `_config.yml` & `_data/author.yml` files as you like.
 7. Upload the files on your repository and :sunglasses: enjoy.
+> NOTE: You have to remove `url` and `baseurl` from `_config.yml` to use this theme for `<your-username>.github.io`
 
 ## Alert!
 
@@ -30,14 +31,10 @@
 
 ![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-material-you/main/screenshots/pc_blog.png)
 
+## CATEGORIES MODAL
+
+![Categories modal](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-material-you/main/screenshots/cat_modal.png)
+
 ## PC POST EXAMPLE
 
 ![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-material-you/main/screenshots/pc_post.png)
-
-## PHONE BLOG PAGE
-
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-material-you/main/screenshots/mobile_blog.png)
-
-## PHONE POST EXAMPLE
-
-![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-material-you/main/screenshots/mobile_post.png)
