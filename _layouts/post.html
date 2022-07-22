@@ -11,14 +11,13 @@
         <!--  -->
         {% else %}
         <!--  -->
-        {% assign page_thumbnail = site.baseurl | append:
-        '/assets/images/pattern.png' %}
+        {% assign page_thumbnail = '/assets/images/pattern.png' %}
         <!--  -->
         {% endif %}
         <div
           class="article-thumbnail"
           style="
-            background-image: url('{{ page_thumbnail }}');
+            background-image: url('{{ site.baseurl }}/{{ page_thumbnail }}');
           "
         >
           <h1 class="article-title">{{ page.title }}</h1>
@@ -26,7 +25,7 @@
             <small class="article-date">{{page.date | date_to_string}}</small>
             <div class="article-categories">
               {% for c in page.categories %}
-              <a href="#!" class="article-category">#{{c}}</a>
+              <a href="#!" class="article-category">{{c}}</a>
               {% endfor %}
             </div>
           </div>
